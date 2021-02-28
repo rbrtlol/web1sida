@@ -1,0 +1,83 @@
+div {
+    font-family: "Roboto";
+}
+
+.mainmenu {
+    overflow: hidden;
+    background-color: #ff9090;
+}
+
+.mainmenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.mainmenu .sokruta {
+    float: right;
+}
+  
+.mainmenu input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.mainmenu .sokruta button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(255, 204, 204);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#current {
+    background-color: rgb(255, 204, 204);
+    color: #333;
+}
+
+.mainmenu a:hover { 
+animation-name: gradienthover;
+animation-duration: 500ms;
+animation-fill-mode: forwards;
+}
+
+@keyframes gradienthover {
+    100% {
+        background-color: rgb(255, 204, 204);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainmenu .sokruta {
+        float: none;
+    }
+
+    .mainmenu .sokruta button {
+        background-color: #ff9090;
+    }
+      
+    .mainmenu a, .mainmenu input[type=text], .mainmenu .sokruta button {
+        float: none;
+        margin: 0;
+        display: block; 
+        text-align: left;
+        width: 100%;
+        padding: 14px;
+    }
+      
+    .mainmenu input[type=text] {
+        border: 1px solid #ccc;  
+    }
+}
+
+
+
