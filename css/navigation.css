@@ -112,6 +112,8 @@ animation-fill-mode: forwards;
 .djurbilder {
     text-align: center;
     display: block;
+    width: 60%;
+    height: auto;
 }
 
 
