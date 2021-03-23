@@ -1,0 +1,22 @@
+.unordered {
+    list-style-type: circle;
+    line-height: 170%;
+    background: rgb(255, 117, 117);
+    padding: 20px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.unordered li {
+    background: #ff9090;
+    margin: 5px
+}
+
+.nested-ul { 
+    list-style-type: circle;
+}
+
+.nested-ul li {
+    background: rgb(255, 204, 204);
+    margin: 5px;
+}
